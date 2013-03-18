@@ -25,55 +25,64 @@
   </head>
   <body>
    <header class="bar-title">
-    <h1 class="title">Today's Specials</h1>
+  
+    <h1 class="title">Today Specials</h1>
+      <a class="button" href="#">
+      X
+    </a>
     </header>
   <!-- header -->
 
   <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-  <div class="content">
-   <ul class="thumb-grid two-col">
-      <li><a href="#"> <img src="img/menu1.jpg" alt="banner"></a><h5>Chocolate cookies</h5></li>
-      <li><a href="#"> <img src="img/menu2.jpg" alt="banner"></a><h5>Chocolate cookies</h5></li>
-       <li><a href="#"> <img src="img/menu3.jpg" alt="banner"></a><h5>Chocolate cookies</h5></li>
-      <li><a href="#"> <img src="img/menu4.jpg" alt="banner"></a><h5>Chocolate cookies</h5></li>
-       <li><a href="#"> <img src="img/menu5.jpg" alt="banner"></a><h5>Chocolate cookies</h5></li>
-      <li><a href="#"> <img src="img/menu6.jpg" alt="banner"></a><h5>Chocolate cookies</h5></li>
-    </ul> 
-  <h3>World Receipes</h3>
+  <div class="content featured-box">
+
+    <div class="stack">
+      <span class="featured"></span>
+     
+        <img src="img/slide-1.jpg" style="width:100%" alt="banner">
+      
+    </div>
+    <hr>
+  <div class="widget">
+      <h3>Ingredient(4 servings)</h3>
+      <ul class="ingredients-list">
+        <li>2.5 oz/1-inch piece fresh ginger</li>
+        <li>1 tsp soy sauce</li>
+        <li>2.5 oz/1-inch piece fresh ginger</li>
+        <li>1 tsp soy sauce</li>
+        <li>2.5 oz/1-inch piece fresh ginger</li>
+        <li>1 tsp soy sauce</li>
+      </ul>
+
+    </div>
   </div>
 <!-- content -->
   
-  <nav class="bar-tab">
+   <nav class="bar-tab">
     <ul class="tab-inner">
-      <li class="tab-item active">
+      <li class="tab-item">
         <a href="">
-          <img class="tab-icon" src="img/icon-home.png">
-          <div class="tab-label">Daily Specials</div>
+          <img class="tab-icon" src="img/receipe.png">
+          <div class="tab-label">Receipes</div>
         </a>
       </li>
       <li class="tab-item">
         <a href="">
-          <img class="tab-icon" src="img/icon-profile.png">
-          <div class="tab-label">Receipes</div>
+          <img class="tab-icon" src="img/search.png">
+          <div class="tab-label">Search</div>
         </a>
       </li>
 
       <li class="tab-item">
         <a href="">
-          <img class="tab-icon" src="img/icon-hamburger.png">
-          <div class="tab-label">Search</div>
-        </a>
-      </li>
-      <li class="tab-item">
-        <a href="">
-          <img class="tab-icon" src="img/icon-settings.png">
+          <img class="tab-icon" src="img/star.png">
           <div class="tab-label">Favorites</div>
         </a>
       </li>
       <li class="tab-item">
         <a href="">
-          <img class="tab-icon" src="img/icon-settings.png">
-          <div class="tab-label">Shopping</div>
+          <img class="tab-icon" src="img/add.png">
+          <div class="tab-label">Create</div>
         </a>
       </li>
     </ul>
